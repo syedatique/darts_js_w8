@@ -2,8 +2,7 @@
 
 var isIE = document.all;
 
-/*****************************************************************************
- * Get/add/remove elements from the Document Object Model (DOM).
+/* Get/add/remove elements from the Document Object Model (DOM).
  * Source: http://www.dustindiaz.com/add-remove-elements-reprise/
  */
 var DOM = {
@@ -27,8 +26,7 @@ var DOM = {
   }
 };
 
-/*****************************************************************************
- * Add events to DOM objects.
+/*Add events to DOM objects.
  * Source: http://www.dustindiaz.com/add-remove-elements-reprise/
  */
 var Event = {
@@ -49,8 +47,7 @@ var Event = {
 };
 
 
-/*****************************************************************************
- * Function   setText
+/* Function   setText
  * Description  Set the text of an object.
  * Parameters id - the object identifier
  *        txt - the text to set
@@ -62,8 +59,7 @@ function setText(id, txt) {
   return txt;
 }
 
-/*******************************************************************************
- * Function   hypotenuse
+/*Function   hypotenuse
  * Description  Gets a triangle's hypotenuse using the Pythagoras's theorem
  * Parameters a - triangle's base; c - triangle's height
  * Returns    triangle's hypotenuse

@@ -120,15 +120,3 @@ hr.line {
 	visibility:hidden;
 }
 
-/* Footnote */
-#Footer {
-	position:absolute;
-	font-family:lucida,verdana,arial,helvetica;
-	font-size:9px;
-	color:#00c;
-	text-align:center;
-	bottom:15px;
-	left:0px;
-	width:100%;
-	height:18px
-}

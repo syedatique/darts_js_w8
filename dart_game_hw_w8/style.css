@@ -1,0 +1,11 @@
+.buttons {
+ width: 60%;
+ position: relative;
+ font-size: 300%;
+ font-weight: bolder;
+ padding-left: 30px;
+}
+#player1 { position: relative;}
+#player2 { position: relative;}
+
+.score_table { border: solid; width: 300px; height: 300px;}
